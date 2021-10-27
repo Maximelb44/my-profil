@@ -1,0 +1,64 @@
+body {
+	background-color: floralwhite;
+	color: white;
+}
+h1 {
+  color: darkviolet;
+	font-size: 50px;
+	font-family: Arial;
+}
+h3{
+	color: black;
+	font-size: 15px;
+	font-family: Arial;
+}
+h2{
+	color: grey
+}
+h4{
+	color: darkviolet;
+	font-size: 30px;
+	font-family: Arial;
+}
+h5{
+	color: white;
+	font-size: 22px
+}
+#logo { /* select the element with the id="logo" */
+  width: 170px;
+}
+.img-circle {
+  border-radius: 50%;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+.img-bordered {
+  border: 10px solid darkviolet;
+}
+
+.text-center {
+	text-align: center;
+	border: 7px solid black;
+	width: 1000px;
+	margin: 50px auto;
+	background-color: purple;
+	padding: 60px;
+	box-shadow: 5px 5px 50px rgb(0 0 0/0.8);
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	color: darkviolet
+}
+.btn-blue {
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-blue:hover {
+  background-color: lightgrey;
+  color: white;
+}
